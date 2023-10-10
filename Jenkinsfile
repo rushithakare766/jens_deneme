@@ -8,7 +8,7 @@ pipeline {
                 checkout scm
                 
                 // Copy the specific file to the workspace
-                sh "cp app.py /home/rushikesh/.jenkins/workspace/"
+                
             }
         }
     }
